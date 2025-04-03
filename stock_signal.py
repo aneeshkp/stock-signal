@@ -64,7 +64,7 @@ def analyze_stocks(symbols):
     return df
 
 # 🔧 Customize your stock list here
-symbols = ["AAPL", "GOOG", "MSFT", "TSLA"]
+symbols = ["AAPL", "GOOG", "MSFT", "TSLA","SMCI","QQQ","NVDA"]
 
 # Ask the user whether to show charts
 show_charts = input("Do you want to display charts? (y/n): ").strip().lower() == "y"
